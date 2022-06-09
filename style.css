@@ -1,8 +1,12 @@
 body{
     background-image: url('background.jpeg');
     background-repeat: no-repeat;
-    text-align: center;
+    position:relative;
+    background-attachment: fixed;
+    background-size: cover; 
+     text-align: center;
     vertical-align: middle;
+    margin:0px;
 }
 h2{
     font-family: courier;
