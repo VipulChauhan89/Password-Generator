@@ -82,7 +82,11 @@ function generate()
 }
 function copy()
 {
-    document.getElementById("pass").select();
-    document.execCommand("copy");
-    document.getElementById("cpy").className="bi bi-check";
+    if(document.getElementById("pass").value!="")
+    {
+
+        document.getElementById("pass").select();
+        document.execCommand("copy");
+        document.getElementById("cpy").className="bi bi-check";
+    }
 }
